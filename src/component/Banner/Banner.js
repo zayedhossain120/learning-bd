@@ -50,30 +50,14 @@ const Banner = () => {
           </div>
         </div>
       </div>
-      <div className="absolute top-16 left-20">
-        <h2 className="text-5xl font-bold bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent  whitespace-nowrap animate-typing">
-          Get mastery on your target
+      <div className="absolute top-10  inset-x-0 p-4">
+        <h2 className="text-5xl font-bold bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent">
+          Education is easy for everyone
         </h2>
-        <div className="p-10">
-          <button
-            className="btn btn-secondary
-          "
-          >
-            Learn More
-          </button>
+        <div className="flex gap-5 justify-center items-center mt-10 sm:flex-row flex-col">
+          <button className="btn btn-secondary">Learn More</button>
           <button className="btn ml-2 btn-accent">Get Access Now</button>
         </div>
-      </div>
-      <div className="absolute top-20 right-36">
-        <iframe
-          width="360"
-          height="200"
-          src="https://www.youtube.com/embed/aDTaiU0aoiQ?controls=0"
-          title="My Video"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
       </div>
     </div>
   );

@@ -43,7 +43,7 @@ const Header = () => {
             </ul>
           </div>
 
-          <img src={logo} alt="" />
+          <img className="hidden md:block " src={logo} alt="" />
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1  font-bold text-gray-600">
