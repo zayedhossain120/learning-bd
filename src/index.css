@@ -10,3 +10,13 @@ body {
 .banner-header-text {
   font-size: clump(36px, 7vh, 75px);
 }
+
+/* Card custom css */
+
+.learning-bd-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(385px, 1fr));
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+}
