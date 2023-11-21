@@ -20,3 +20,13 @@ body {
   align-items: center;
   justify-content: center;
 }
+.instructor-bd-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+}
+.slick-slide > div {
+  margin: 10px;
+}

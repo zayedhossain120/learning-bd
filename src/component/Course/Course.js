@@ -12,7 +12,7 @@ const Course = () => {
 
   return (
     <section className=" container mx-auto pb-10  ">
-      <h1 className="text-5xl p-10 ">Featured Course</h1>
+      <h1 className="text-5xl p-10  ">Featured Course</h1>
 
       <div className="  learning-bd-card  ">
         {course.map((item) => (
@@ -21,11 +21,10 @@ const Course = () => {
               <img src={item?.picture} alt="course thumb" />
             </figure>
             <div className="card-body">
-              <h2 className="card-title">
+              <h2 className="card-title ">
                 {item?.title}
                 <div className="badge badge-secondary">Pro </div>
               </h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
               <div className="card-actions justify-between">
                 <div className="rating">
                   <input
