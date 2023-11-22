@@ -8,7 +8,7 @@ const About = () => {
       <h1 className="text-5xl p-10 ">About Us</h1>
       <div className="flex justify-center items-center gap-10">
         <div className="w-1/2">
-          <h3 className="text-3xl p-5">Expert Squad</h3>
+          <h3 className="text-3xl p-5 textCustom">Expert Squad</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum
             tenetur adipisci excepturi vero labore cum itaque corporis

@@ -1,8 +1,8 @@
 .img-animate {
   height: 400px;
   width: 400px;
-  box-shadow: 0px 10px 15px 5px rgba(0, 0, 0, 0.3);
-  animation: img-animate 5s ease-in-out infinite;
+  box-shadow: 4px 5px 7px 5px rgba(0, 0, 0, 0.3);
+  animation: img-animate 3s ease-in-out infinite;
   transition: all ease-in-out;
   animation-direction: alternate;
 }
@@ -10,11 +10,13 @@
 @keyframes img-animate {
   0% {
     border-radius: 40% 25% 55% 35% / 25% 55% 25% 35%;
+    rotate: 5deg;
   }
   50% {
     border-radius: 30% 35% 45% 35% / 35% 45% 35% 55%;
   }
   100% {
     border-radius: 30% 55% 35% 55% / 25% 35% 55% 45%;
+    rotate: -5deg;
   }
 }
